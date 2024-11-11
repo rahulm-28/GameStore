@@ -1,0 +1,20 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+
+# Ignore NuGet packages
+*.nupkg
+.nuget/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore ASP.NET files
+appsettings.json
+appsettings.Development.json
