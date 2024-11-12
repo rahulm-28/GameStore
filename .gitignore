@@ -18,3 +18,11 @@ obj/
 # Ignore ASP.NET files
 appsettings.json
 appsettings.Development.json
+
+# Ignore database
+*GameStore.db
+GameStore.db-shm
+GameStore.db-wal
+
+.DS_Store
+
