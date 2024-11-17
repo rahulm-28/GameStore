@@ -2,7 +2,7 @@ GET http://localhost:5189/games
 
 ###
 
-GET http://localhost:5189/games/1
+GET http://localhost:5189/games/2
 
 ###
 POST http://localhost:5189/games
@@ -17,14 +17,14 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:5189/games/4
+PUT http://localhost:5189/games/2
 Content-Type: application/json
 
 {
-    "name":"Minecraft ttt",
-    "genre":"Kids and familyyyy",
-    "price":19.99,
-    "releaseDate":"2011-11-18"
+    "name":"Street Figting II Turbo",
+    "genreId":1,
+    "price":29.99,
+    "releaseDate":"1991-02-01"
 }
 
 
